@@ -1,5 +1,5 @@
 {
-	"name": "obsidian-custom-plugin-starter",
+	"name": "minimap",
 	"version": "0.0.1",
 	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
 	"main": "main.js",
@@ -12,13 +12,32 @@
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
+		"@codemirror/autocomplete": "^6.0.0",
+		"@codemirror/basic-setup": "^0.20.0",
+		"@codemirror/commands": "^6.0.0",
+		"@codemirror/lang-css": "^6.0.0",
+		"@codemirror/lang-html": "^6.0.0",
+		"@codemirror/language": "https://github.com/lishid/cm-language",
+		"@codemirror/lint": "^6.0.0",
+		"@codemirror/rangeset": "^0.19.1",
+		"@codemirror/search": "^6.0.0",
+		"@codemirror/state": "^6.0.0",
+		"@codemirror/stream-parser": "https://github.com/lishid/stream-parser",
+		"@codemirror/view": "^6.0.0",
+		"@lezer/common": "^1.2.1",
+		"@lezer/highlight": "^1.2.0",
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "5.29.0",
 		"@typescript-eslint/parser": "5.29.0",
 		"builtin-modules": "3.3.0",
+		"codemirror": "^6.0.0",
+		"crelt": "^1.0.6",
 		"esbuild": "0.14.47",
 		"obsidian": "latest",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
+	},
+	"dependencies": {
+		"@replit/codemirror-minimap": "^0.5.2"
 	}
 }
